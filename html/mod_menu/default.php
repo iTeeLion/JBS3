@@ -8,7 +8,7 @@ if ($module->position == 'mainmenu') {
 $isNavbarNav = stristr($class_sfx, 'navbar-nav');
 ?>
 
-<ul class="nav navbar-nav menu<?php echo $class_sfx; ?>"<?php
+<ul class="menu nav <?php echo $class_sfx; ?>"<?php
 $tag = '';
 if ($params->get('tag_id') != null) {
     $tag = $params->get('tag_id') . '';

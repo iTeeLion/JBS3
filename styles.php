@@ -96,43 +96,43 @@ echo (!empty($styles->background_size))?$TB."background-size: ".$styles->backgro
 <? $styles = $tplParams['navbar_styles']; ?>
 .navbar-main {
 <?
-echo ($styles->font_family)?$TB."font-family: ".$styles->font_family.";".$NL:"";
-echo ($styles->background_color)?$TB."background-color: ".$styles->background_color.";".$NL:"";
-echo ($styles->color)?$TB."color: ".$styles->color.";".$NL:"";
-echo ($styles->border_bottom_color)?$TB."border-bottom-color: ".$styles->border_bottom_color.";".$NL:"";
+echo (!empty($styles->font_family))?$TB."font-family: ".$styles->font_family.";".$NL:"";
+echo (!empty($styles->background_color))?$TB."background-color: ".$styles->background_color.";".$NL:"";
+echo (!empty($styles->color))?$TB."color: ".$styles->color.";".$NL:"";
+echo (!empty($styles->border_bottom_color))?$TB."border-bottom-color: ".$styles->border_bottom_color.";".$NL:"";
 ?>
 }
 .navbar-main a {
 <?
-echo ($styles->a_color)?$TB."color: ".$styles->a_color.";".$NL:"";
+echo (!empty($styles->a_color))?$TB."color: ".$styles->a_color.";".$NL:"";
 ?>
 }
 .navbar-main a:hover,
 .navbar-main a:focus {
 <?
-echo ($styles->a_hover_color)?$TB."color: ".$styles->a_hover_color.";".$NL:"";
+echo (!empty($styles->a_hover_color))?$TB."color: ".$styles->a_hover_color.";".$NL:"";
 ?>
 }
 .navbar-main .navbar-nav>li>a {
 <?
-echo ($styles->nav_hover_color)?$TB."color: ".$styles->nav_hover_color.";".$NL:"";
-echo ($styles->navbtn_color)?$TB."background-color: ".$styles->navbtn_color.";".$NL:"";
+echo (!empty($styles->nav_hover_color))?$TB."color: ".$styles->nav_hover_color.";".$NL:"";
+echo (!empty($styles->navbtn_color))?$TB."background-color: ".$styles->navbtn_color.";".$NL:"";
 ?>
 }
 .navbar-main .navbar-nav>li>a:hover {
 <?
-echo ($styles->nav_hover_color)?$TB."color: ".$styles->nav_hover_color.";".$NL:"";
-echo ($styles->navbtn_hover_color)?$TB."background-color: ".$styles->navbtn_hover_color.";".$NL:"";
+echo (!empty($styles->nav_hover_color))?$TB."color: ".$styles->nav_hover_color.";".$NL:"";
+echo (!empty($styles->navbtn_hover_color))?$TB."background-color: ".$styles->navbtn_hover_color.";".$NL:"";
 ?>
 }
 .navbar-main .navbar-nav>li.active>a {
 <?
-echo ($styles->nav_selected_color)?$TB."color: ".$styles->nav_selected_color.";".PHP_EOL:"";
-echo ($styles->navbtn_selected_color)?$TB."background-color: ".$styles->navbtn_selected_color.";".PHP_EOL:"";
+echo (!empty($styles->nav_selected_color))?$TB."color: ".$styles->nav_selected_color.";".PHP_EOL:"";
+echo (!empty($styles->navbtn_selected_color))?$TB."background-color: ".$styles->navbtn_selected_color.";".PHP_EOL:"";
 ?>
 }
 .navbar-main .icon-bar{
 <?
-echo ($styles->color)?$TB."background-color: ".$styles->color.";".PHP_EOL:"";
+echo (!empty($styles->color))?$TB."background-color: ".$styles->color.";".PHP_EOL:"";
 ?>
 }

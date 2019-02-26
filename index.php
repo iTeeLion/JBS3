@@ -35,7 +35,7 @@
                 </div>
             </div>
         </nav>
-        <? if($tplParams['navbar_styles']->fixed): ?>
+        <? if(!empty($tplParams['navbar_styles']->fixed)): ?>
         <div class="navbar-spacer navbar-fixed" <?=$tplParams['navbar_styles']->fixed_spacer?>></div>
         <? endif; ?>
     <? endif; ?>

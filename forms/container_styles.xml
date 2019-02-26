@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form>
+    <field name="class" type="radio" label="TPL_JBS3_FIELD_CONTAINER_CLASS" default="container">
+        <option value="container">TPL_JBS3_FIELD_CONTAINER_CLASS_WITH_PADDINGS</option>
+        <option value="container-fluid">TPL_JBS3_FIELD_CONTAINER_CLASS_WITHOUT_PADDINGS</option>
+    </field>
+    <field name="margin" type="text" label="TPL_JBS3_FIELD_MARGIN" default=""/>
+</form>

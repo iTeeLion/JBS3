@@ -1,0 +1,52 @@
+.section_header {
+}
+.section_header .container {
+}
+.section_header .row {
+}
+
+.section_top {
+}
+.section_top .container {
+}
+.section_top .row {
+}
+
+.section_top1 {
+}
+.section_top1 .container {
+}
+.section_top1 .row {
+}
+
+/* and other .section_top2, .section_top3, ... , .section_topN*/
+
+.section_main {
+}
+.section_main .container {
+}
+.section_main .row {
+}
+
+.section_bottom {
+}
+.section_bottom .container {
+}
+.section_bottom .row {
+}
+
+.section_bottom1 {
+}
+.section_bottom1 .container {
+}
+.section_bottom1 .row {
+}
+
+/* and other .section_bottom2, .section_bottom3, ... , .section_bottomN*/
+
+.section_footer {
+}
+.section_footer .container {
+}
+.section_footer .row {
+}

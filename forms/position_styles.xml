@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form>
+    <field name="section_styles" type="subform" formsource="/templates/jbs3/forms/section_styles.xml" label="TPL_JBS3_SPACER_SECTION"/>
+    <field name="container_styles" type="subform" formsource="/templates/jbs3/forms/container_styles.xml" label="TPL_JBS3_SPACER_CONTAINER"/>
+    <field name="row_styles" type="subform" formsource="/templates/jbs3/forms/row_styles.xml" label="TPL_JBS3_SPACER_ROW"/>
+    <field name="cols_styles" type="subform" formsource="/templates/jbs3/forms/cols_styles.xml" label="TPL_JBS3_SPACER_COLS"/>
+    <field name="cells_styles" type="subform" formsource="/templates/jbs3/forms/cells_styles.xml" label="TPL_JBS3_SPACER_CELLS"/>
+</form>

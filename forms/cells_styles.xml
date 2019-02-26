@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form>
+    <field name="padding" type="text" label="TPL_JBS3_FIELD_PADDING" default="0px" description="TPL_JBS3_FIELD_PADDING_DESC"/>
+    <field name="background_color" type="color" format="rgba" label="TPL_JBS3_FIELD_BACKGROUND_COLOR"/>
+    <field name="background_image" type="media" label="TPL_JBS3_FIELD_BACKGROUND_IMAGE"/>
+    <field name="background_position" type="list" label="TPL_JBS3_FIELD_BACKGROUND_POSITION" showon="background_image!:">
+        <option value=""></option>
+        <option value="top">top</option>
+        <option value="left">left</option>
+        <option value="center">center</option>
+        <option value="right">right</option>
+        <option value="bottom">bottom</option>
+        <option value="unset">unset</option>
+    </field>
+    <field name="background_repeat" type="list" label="TPL_JBS3_FIELD_BACKGROUND_REPEAT" showon="background_image!:">
+        <option value=""></option>
+        <option value="no-repeat">no-repeat</option>
+        <option value="repeat">repeat</option>
+        <option value="repeat-x">repeat-x</option>
+        <option value="repeat-y">repeat-y</option>
+        <option value="unset">unset</option>
+    </field>
+    <field name="background_size" type="list" label="TPL_JBS3_FIELD_BACKGROUND_SIZE" showon="background_image!:">
+        <option value=""></option>
+        <option value="auto">auto</option>
+        <option value="contain">contain</option>
+        <option value="cover">cover</option>
+        <option value="repeat-y">repeat-y</option>
+        <option value="unset">unset</option>
+    </field>
+    <field name="border_radius" type="text" label="TPL_JBS3_FIELD_BORDER_RADIUS" default="0px"/>
+</form>

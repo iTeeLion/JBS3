@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form>
+    <field name="padding" type="text" label="TPL_JBS3_FIELD_PADDING" default="5px" description="TPL_JBS3_FIELD_PADDING_DESC"/>
+</form>

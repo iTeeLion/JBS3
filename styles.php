@@ -85,7 +85,7 @@ body {
 echo (!empty($styles->font_family))?$TB."font-family: ".$styles->font_family.";".$NL:"";
 echo (!empty($styles->color))?$TB."color: ".$styles->color.";".$NL:"";
 echo (!empty($styles->background_color))?$TB."background-color: ".$styles->background_color.";".$NL:"";
-echo (!empty($styles->background_image))?$TB."background-image: ".$styles->background_image.";".$NL:"";
+echo (!empty($styles->background_image))?$TB."background-image: url(".$styles->background_image.");".$NL:"";
 echo (!empty($styles->background_position))?$TB."background-position: ".$styles->background_position.";".$NL:"";
 echo (!empty($styles->background_repeat))?$TB."background-repeat: ".$styles->background_repeat.";".$NL:"";
 echo (!empty($styles->background_size))?$TB."background-size: ".$styles->background_size.";".$NL:"";

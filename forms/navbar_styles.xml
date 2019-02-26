@@ -23,7 +23,7 @@
         <option value="">TPL_JBS3_OFF</option>
         <option value="navbar-fixed">TPL_JBS3_ON</option>
     </field>
-    <field name="fixed_spacer" type="radio" label="TPL_JBS3_FIELD_NAVBAR_SPACER" default="0" showon="fixed:navbar-fixed">
+    <field name="fixed_spacer" type="radio" label="TPL_JBS3_FIELD_NAVBAR_SPACER" default=" " showon="fixed:navbar-fixed">
         <option value=" ">TPL_JBS3_OFF</option>
         <option value="data-navbar-main-spacer">TPL_JBS3_ON</option>
     </field>
